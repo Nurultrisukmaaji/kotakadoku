@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  margin-top: 50px;
+  border-radius: 11px;
+}
+
+.login {
+  padding: 30px 20px;
+}
+
+.login .img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 140px;
+  margin-bottom: 20px;
+}
+
+.login h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login button {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

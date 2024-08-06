@@ -1,0 +1,498 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 21px;
+  color: #2D2D2D;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  font-weight: 600;
+  color: #2D2D2D;
+}
+
+header {
+  background-image: url("../images/header.png");
+  padding: 240px 0px 200px;
+  margin-top: -100px;
+  background-size: cover;
+}
+
+header .judul h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+header .judul p {
+  font-size: 18px;
+  text-align: center;
+}
+
+header .button-header {
+  margin-top: 30px;
+}
+
+header .button-header a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header .button-header .btn-contact-us {
+  background-color: #333232;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 15px;
+}
+
+header .button-header .btn-contact-us:hover {
+  background-color: #131212;
+}
+
+header .button-header .btn-view-katalog {
+  background-color: #E2C39B;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 15px;
+}
+
+header .button-header .btn-view-katalog:hover {
+  background-color: #caa471;
+}
+
+main .service-bg {
+  background-color: #2D2D2D;
+  min-height: 600px;
+}
+
+main .section-service {
+  color: #fff;
+  padding-top: 50px;
+}
+
+main .section-service h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+}
+
+main .section-service p {
+  font-size: 20px;
+}
+
+main .section-service-content {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  padding: 0px;
+}
+
+main .section-service-content img {
+  margin-bottom: 10px;
+}
+
+main .section-service-content h2 {
+  font-size: 25px;
+}
+
+main .section-service-content p {
+  font-size: 20px;
+}
+
+main .section-bg-favorite {
+  min-height: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(85.87%, #e6cbab), to(#d8ae7e));
+  background: linear-gradient(#fff 0%, #e6cbab 85.87%, #d8ae7e 100%);
+}
+
+main .section-favorite {
+  padding-top: 100px;
+}
+
+main .section-favorite h1 {
+  font-size: 45px;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+main .section-favorite p {
+  font-size: 18px;
+}
+
+main .section-favorite-content {
+  padding-bottom: 130px;
+}
+
+main .section-favorite-content .fav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+main .section-favorite-content .large-fav {
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+main .btn-view-instagram {
+  margin-top: -70px;
+  margin-bottom: 50px;
+  color: #fff;
+  background-color: #BF2468;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+main .btn-view-instagram:hover {
+  color: #fff;
+  background-color: #a51151;
+}
+
+main .section-product {
+  min-height: 700px;
+  background-color: #fff;
+  padding-top: 40px;
+}
+
+main .section-product h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+main .section-product p {
+  font-size: 18px;
+}
+
+main .section-product .section-product-content .card {
+  margin-top: 30px;
+  min-height: 380px;
+  border-top-left-radius: 41px;
+  border-top-right-radius: 41px;
+  border: solid 1px #CBCBCB;
+}
+
+main .section-product .section-product-content .card .card-content {
+  background-size: cover;
+  width: 100%;
+  min-height: 250px;
+  border-top-right-radius: 41px;
+  border-top-left-radius: 41px;
+}
+
+main .section-product .section-product-content .card .card-title {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+main .section-product .section-product-content .card .card-title .harga {
+  font-size: 16px;
+  color: #e26e0f;
+}
+
+main .section-product .section-product-content .card .btn-lihat-detail {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #E2C39B;
+  width: 150px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+main .section-product .section-product-content .card .btn-lihat-detail:hover {
+  color: #fff;
+  background-color: #d8ae7e;
+}
+
+footer {
+  min-height: 450px;
+}
+
+footer h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #2D2D2D;
+  margin-bottom: 18px;
+}
+
+footer li a:hover {
+  color: #2D2D2D;
+}
+
+footer .copyright {
+  font-size: 15px;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+.detail-title {
+  margin-top: 150px;
+}
+
+.detail-title .katalog {
+  font-family: 'Vollkorn', serif;
+}
+
+.btn-outline {
+  border: solid #bebebe 1px;
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  background-color: #a51151;
+  color: #fff;
+}
+
+.detail-content {
+  min-height: 100vh;
+}
+
+.detail-content .card {
+  min-height: 380px;
+  margin-top: 30px;
+  border-top-left-radius: 41px;
+  border-top-right-radius: 41px;
+  border: solid #CBCBCB 1px;
+}
+
+.detail-content .card .card-katalog {
+  background-size: cover;
+  width: 100%;
+  min-height: 250px;
+  border-top-right-radius: 41px;
+  border-top-left-radius: 41px;
+}
+
+.detail-content .card .card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.detail-content .card .card-title .harga {
+  font-size: 16px;
+  color: #e26e0f;
+}
+
+.detail-content .card .btn-lihat-detail {
+  background-color: #E2C39B;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 15px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.detail-content .card .btn-lihat-detail:hover {
+  background-color: #d8ae7e;
+}
+
+.section-header {
+  background-color: #e4e4e4;
+  margin-top: 93px;
+  min-height: 90px;
+}
+
+.section-header .breadcrumb {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.section-header .breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #5e5d5d;
+}
+
+.section-header .breadcrumb .active {
+  font-weight: 600;
+}
+
+.section-detail-product {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.section-detail-product .gallery {
+  margin-bottom: 30px;
+}
+
+.section-detail-product .gallery .gallery-container {
+  padding: 10px;
+}
+
+.section-detail-product .gallery .gallery-container img {
+  width: 100%;
+  max-height: 450px;
+}
+
+.section-detail-product .gallery .thumbnail {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.section-detail-product .gallery .thumbnail .thumb {
+  width: 100%;
+  max-width: 130px;
+  max-height: 65px;
+}
+
+.section-detail-product .gallery .thumbnail .thumb:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.desk-product {
+  min-height: 500px;
+}
+
+.desk-product .title {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.desk-product .harga {
+  font-size: 25px;
+  color: #a11207;
+  font-weight: 500;
+}
+
+.desk-product .spesifikasi .spek {
+  font-size: 20px;
+}
+
+.desk-product .spesifikasi th {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7c7c7c;
+}
+
+.desk-product .spesifikasi td {
+  font-size: 15px;
+  text-align: right;
+}
+
+.desk-product .deskripsi {
+  margin-top: 30px;
+}
+
+.desk-product .deskripsi h2 {
+  font-size: 20px;
+}
+
+.desk-product .deskripsi p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.desk-product .button-buy {
+  margin-top: 30px;
+}
+
+.desk-product .button-buy h2 {
+  font-size: 20px;
+}
+
+.desk-product .btn-gabung {
+  display: block;
+}
+
+.desk-product .btn-gabung a {
+  text-decoration: none;
+}
+
+.desk-product .btn-gabung .btn-shopee {
+  background-color: #e26e0f;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  width: 130px;
+}
+
+.desk-product .btn-gabung .btn-shopee:hover {
+  background-color: #c95b02;
+}
+
+.desk-product .btn-gabung .btn-tokped {
+  background-color: #34d403;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.desk-product .btn-gabung .btn-tokped:hover {
+  background-color: #2db902;
+}
+
+.desk-product .btn-gabung .btn-wa {
+  background-color: #00aa1c;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.desk-product .btn-gabung .btn-wa:hover {
+  background-color: #028a19;
+}
+
+.about {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.about .txt {
+  margin-bottom: 50px;
+  font-family: 'Vollkorn', serif;
+}
+
+.about .txt-about {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.about .img-about {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s forwards;
+          animation: fadeIn 1s forwards;
+}
+
+.active-js {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=main.css.map */
